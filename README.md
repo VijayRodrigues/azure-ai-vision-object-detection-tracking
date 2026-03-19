@@ -67,3 +67,57 @@ Although Vision Studio performs object detection on individual images, analyzing
 ---
 
 ## Repository Structure
+
+```
+report/
+SIG788_Task5_Object_Detection_Tracking_Azure_AI_Vision.pdf
+
+images/
+workspace_image_1.jpg
+workspace_image_2.jpg
+workspace_image_3.jpg
+
+results/
+detection_result_1.png
+detection_result_2.png
+detection_result_3.png
+
+video/
+workspace_tracking_video.mp4
+azure_ai_detection_demo.mp4
+```
+
+
+
+
+---
+
+## Example Detection Output
+
+Example object detection results generated using Azure AI Vision.
+
+![Detection Example](results/detection_result_1.png)
+
+---
+
+## Key Observations
+
+- Azure AI Vision successfully detected common objects within workspace environments.
+- Bounding boxes and confidence scores helped evaluate detection accuracy.
+- In some cases, the system classified a computer monitor as a **television**, showing how models group visually similar objects.
+- Sequential frame analysis allowed simple observation of movement across video frames.
+
+---
+
+## Conclusion
+
+This experiment demonstrates how Azure AI Vision can be used to implement object detection and analyze visual scenes using cloud-based computer vision services.
+
+The results show that Azure AI Vision is effective for identifying common objects and can support real-world applications such as automation, surveillance, and workspace monitoring.
+
+---
+
+## Author
+
+**Vijay Rodrigues**  
+Project created as part of experimentation with Azure AI Vision and computer vision concepts.
