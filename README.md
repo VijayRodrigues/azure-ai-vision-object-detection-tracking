@@ -1,5 +1,7 @@
 # Azure AI Vision – Object Detection and Frame-Based Tracking
 
+![Object Detection Example](detection-results/detection_result_gif.gif)
+
 ## Project Overview
 
 This project demonstrates object detection and basic object tracking using **Microsoft Azure AI Vision through Vision Studio**.
